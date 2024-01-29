@@ -14,7 +14,7 @@ import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
     MenuBarComponent,
   ],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrls: ['./home.component.css', './home.component.mobile.css']
 })
 export class HomeComponent {
 
