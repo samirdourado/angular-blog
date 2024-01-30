@@ -1,0 +1,19 @@
+.container__menu-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 320px;
+  margin-top: 20px;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+}
+
+.container__menu-title > h1 {
+  padding: 20px;
+  text-align: center;
+  font-size: 135px;
+  font-weight: 700;
+
+
+}
+
