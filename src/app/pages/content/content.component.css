@@ -1,0 +1,47 @@
+.container__content{
+  width: 100%;
+  min-width: 300px;
+  max-width: 1920px;
+  height: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20 auto;
+}
+
+.container__cover{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__cover > img{
+  width: 100%;
+  min-width: 300px;
+  object-fit: cover;
+  height: 100%;
+  display: flex;
+  align-self: flex-start;
+}
+
+.conteiner__title{
+  margin: 20px 10px 0 10px;
+}
+
+.container__description {
+  margin: 20px 10px 0 10px;
+}
+.container__description > p{
+  margin-top: 20px;
+  color: rgb(198, 197, 197);
+  padding: 0 20px;
+}
+
+.container__content > a {
+  margin-top: 1.875rem;
+  text-align: center;
+}
